@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Developers Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Image Accordion with CSS3" />
+        <meta name="keywords" content="accordion, images, slideshow, css3, css-only, web development, component, tutorial" />
+        <meta name="author" content="Ring Wing for Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+    </head>
+    <body>
+        <div class="container">
+        <h1 style="font-size:4em; text-align:center; color:ghostwhite;">DEVELOPERS PAGE</h1>
+			<ul id="tabs" style="margin-left:440px; width:50%;">
+    <li><a href="#" title="tab1">Subham choudhury</a></li>
+    <li><a href="#" title="tab2">Neha kandpal</a></li>
+    <li><a href="#" title="tab3">Satyarth agrahari</a></li>
+    <li><a href="#" title="tab4">Rahul agarwal</a></li>    
+</ul>
+<div id="content" style="width:60%; margin-left:280px; height:270px;"> 
+    <div id="tab1">
+        <h2>HOBBIES</h2>
+        <p>Coding, Sketching, Reading books, Watching movies</p>
+        <h3>Skills</h3>
+        <p>C,  C++ , Python, HTML, CSS,  PHP</p>
+        <h3>Contact ME</h3>
+        <li>Email : IEC2015076@iiita.ac.in</li>
+        <li>Phone No : +91-7408228819</li>    
+    </div>
+    <div id="tab2">        <h2>HOBBIES</h2>
+        <p>Coding, Sketching, Reading books, Watching movies</p>
+        <h3>Skills</h3>
+        <p>C,  C++ , Python, HTML, CSS,  PHP</p>
+        <h3>Contact ME</h3>
+        <li>Email : IEC2015048@iiita.ac.in</li>
+        <li>Phone No : +91-7408228819</li>  
+    </div>
+    <div id="tab3">        <h2>HOBBIES</h2>
+        <p>Coding, Sketching, Reading books, Watching movies</p>
+        <h3>Skills</h3>
+        <p>C,  C++ , Python, HTML, CSS,  PHP</p>
+        <h3>Contact ME</h3>
+        <li>Email : IEC2015018@iiita.ac.in</li>
+        <li>Phone No : +91-7408228819</li>  
+    </div>
+    <div id="tab4">        <h2>HOBBIES</h2>
+        <p>Coding, Sketching, Reading books, Watching movies</p>
+        <h3>Skills</h3>
+        <p>C,  C++ , Python, HTML, CSS,  PHP</p>
+        <h3>Contact ME</h3>
+        <li>Email : IEC2015501@iiita.ac.in</li>
+        <li>Phone No : +91-7408228819</li>     
+    </div>
+</div>
+
+			<section class="main">
+			
+					<h2 style="text-align:center; color:ghostwhite; margin-top:45px; margin-bottom:40px; font-size:2.5em;">PHOTO GALLERY</h2>
+				<div class="ia-container" style="margin-top:20px;">
+
+					<figure>
+						<img src="images/1.jpg" alt="image01" style="height:350px;" />
+						<input type="radio" name="radio-set" checked="checked"/>
+						<figcaption><span>DEVELOPERS</span></figcaption>
+						
+						<figure>
+							<img src="images/2.jpg" alt="image02" style="height:350px;"/>
+							<input type="radio" name="radio-set" />
+							<figcaption><span>Subham choudhury</span></figcaption>
+							
+							<figure>
+								<img src="images/3.jpg" alt="image03" style="height:350px;"/>
+								<input type="radio" name="radio-set" />
+								<figcaption><span>Neha kandpal</span></figcaption>
+								
+								<figure>
+									<img src="images/4.jpg" alt="image04" style="height:350px;"/>
+									<input type="radio" name="radio-set" />
+									<figcaption><span>Neha kandpal</span></figcaption>
+									
+									<figure>
+										<img src="images/5.jpg" alt="image05" style="height:350px;"/>
+										<input type="radio" name="radio-set" />
+										<figcaption><span>Satyarth agrahari</span></figcaption>
+										
+										<figure>
+											<img src="images/6.jpg" alt="image06" style="height:350px;"/>
+											<input type="radio" name="radio-set" />
+											<figcaption><span>Satyarth agrahari</span></figcaption>
+								
+											<figure>
+												<img src="images/7.jpg" alt="image07" style="height:350px;"/>
+												<input type="radio" name="radio-set" />
+												<figcaption><span>Rahul agarwal</span></figcaption>											
+
+												<figure>
+													<img src="images/8.jpg" alt="image08" style="height:350px;"/>
+													<input id="ia-selector-last" type="radio" name="radio-set" />
+													<figcaption><span>Rahul agarwal</span></figcaption>
+												</figure>
+												
+											</figure>
+								
+										</figure>	
+											
+									</figure>	
+										
+								</figure>
+									
+							</figure>
+							
+						</figure>
+						
+					</figure>
+				</div><!-- ia-container -->
+				
+			</section>
+			
+        </div>
+
+
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script>
+$(document).ready(function() {
+	$("#content div").hide(); // Initially hide all content
+	$("#tabs li:first").attr("id","current"); // Activate first tab
+	$("#content div:first").fadeIn(); // Show first tab content
+    
+    $('#tabs a').click(function(e) {
+        e.preventDefault();        
+        $("#content div").hide(); //Hide all content
+        $("#tabs li").attr("id",""); //Reset id's
+        $(this).parent().attr("id","current"); // Activate this
+        $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
+    });
+})();
+</script>
+
+    </body>
+</html>
