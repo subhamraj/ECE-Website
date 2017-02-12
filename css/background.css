@@ -1,0 +1,51 @@
+.main {
+	margin: 2%;
+	padding: 2% 3%;
+	font-size: 1.2em;
+	margin-bottom: 2%;
+	border: solid grey 2px;
+	color: darkslategrey;
+	box-shadow: rgb(9, 9, 9) 5px 5px 5px;
+}
+
+.main h1 {
+	color: black;
+	text-align: center;
+}
+
+.image {
+	background-size:100% 160px;
+	height: 160px;
+}
+
+	.nav li a {
+		color: black;
+	}
+
+	.tab-pane {
+		background-color: #eee;
+		color: darkslategrey;
+		margin-left: 50px;
+		width: 800px;
+		padding: 20px;
+	}
+
+	.tab-pane h3 {
+		color: black;
+		font-weight: bold;
+	}
+
+	.panel-heading a {
+		color: darkslategrey;
+		font-weight: bold;
+		display: block;
+	}
+
+	.panel-body {
+		color: darkslategrey;
+	}
+
+	.panel {
+		width: 800px;
+		margin-left: -20px;
+	}

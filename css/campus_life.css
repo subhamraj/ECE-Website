@@ -1,0 +1,25 @@
+/* ----------------------------------- body of campus life ---------------------------------------------------------- */
+
+.section_campus_life {
+	width: 1140px;
+	margin: 10px auto;
+}
+
+.block_campus_life {
+	width: 560px;
+	float: left;
+	padding: 20px;
+	color: gray;
+	box-shadow: 5px 5px 5px #888888;
+	margin: 10px 10px 10px 0px;
+	height: 650px;
+}
+
+.clear {
+	clear: both;
+}
+
+.campus_heading {
+	color: darkslategrey;
+	font-weight: bold;
+}

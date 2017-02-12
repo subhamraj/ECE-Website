@@ -1,0 +1,39 @@
+#research_section {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#main_table {
+	width: 80%;
+	margin: 0 auto 20px;
+	font-size: 1.2em;
+}
+
+#main_table td {
+	padding: 10px;
+}
+
+#main_table tr:nth-child(even) {
+	background-color: lightsteelblue;
+}
+
+#main_table tr:nth-child(odd) {
+	background-color: powderblue;
+}
+
+#main_table th {
+	padding: 10px;
+	background-color: cadetblue;
+}
+
+h2 {
+	text-align: center;
+	color: darkslategrey;
+}
+
+#research_section p {
+	color: grey;
+	font-size: 1.2em;
+	line-height: 2em;
+}

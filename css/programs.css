@@ -1,0 +1,31 @@
+#programs_div {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#programs_div p {
+	color: gray;
+	line-height: 2em;
+	font-size: 1.3em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#programs_table {
+	width: 100%;
+	font-size: 1.6em;
+	line-height: 2em;
+	border: solid gray 2px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px #888;
+}
+
+#programs_table tr td {
+	padding: 5px;
+}

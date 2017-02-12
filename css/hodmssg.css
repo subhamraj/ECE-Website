@@ -1,0 +1,26 @@
+.fill {
+	margin: 5%;
+	padding: 2%;
+	border: 2px solid gray;
+	border-radius: 25px;
+	background-color: #F5EBEF;
+}
+
+.image {
+	background-image:url("../images/Panels/hod.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:100% 140px;
+	height: 140px;
+
+	width: 15%;
+	border: 2px solid black;
+	float: left;
+	margin: 2% 10% 5% 2%;
+}
+
+.message {
+	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 1.6em;
+    color: #080703;
+}
